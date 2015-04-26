@@ -40,7 +40,7 @@ html,body{
 .section2{
 	/*height:800px;*/
 	width:100%;
-	height:100%;
+	height:110%;
 	background-image:url(../image/2_1.png);
 	background-position:top;
 	background-repeat:no-repeat;
@@ -50,7 +50,7 @@ html,body{
 }
 .section3{
 	/*height:800px;*/
-	height:100%;
+	height:110%;
 	width:100%;
 	background-image:url(../image/3_1_1.png);
 	background-position:top;
@@ -59,9 +59,9 @@ html,body{
 	background-color:rgb(199,204,126);
 }
 .section4{
-	height:100%;
+	height:110%;
 	width:100%;
-	background-image:url("../image/4_1.png");
+	background-image:url(../image/4_1.png);
 	background-position:top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -153,6 +153,49 @@ li{
 	left:50px;
 	position:relative;
 }
+@media screen and (max-width:992px){
+	.content_left{
+		position:relative;
+		text-align:left;
+		top:100px;
+		/*margin-top:72px;*/
+	}
+	.content_right{
+		position:relative;
+		text-align:right;
+		top:100px;
+		/*margin-top:72px;*/
+	}
+	.content1{
+		opacity: 0;
+		left:75px;
+		position:relative;
+		width:80%;
+		height:80%;
+	}
+	.content2{
+		opacity: 0;
+		left:75px;
+		position:relative;
+		width:80%;
+		height:80%;
+	}
+	.content3{
+		opacity: 0;
+		left:75px;
+		position:relative;
+		width:80%;
+		height:80%;
+	}
+	.content4{
+		opacity: 0;
+		left:75px;
+		position:relative;
+		width:80%;
+		height:80%;
+	}
+}
+
 .content1-anim{
 	opacity:1;
 	left:0px;
@@ -231,8 +274,8 @@ li{
 
 /*以下是section3部分样式*/
 .avatar img{
-	width:78px;
-	height:78px;
+	width:96px;
+	height:96px;
 	border-radius:50%;
 	/*padding:20px;*/
 	margin:10px;
@@ -243,6 +286,12 @@ li{
 	top:250px;
 	position:relative;
 	/*text-align:center;*/
+}
+@media screen and (max-width:992px){
+	.section3_content{
+		top:468px;
+		position:relative;
+	}
 }
 
 /*以下是section4部分样式*/

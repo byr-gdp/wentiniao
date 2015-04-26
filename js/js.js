@@ -20,5 +20,7 @@ function scrollHandler(e){
 	}else if(scrollTop >= sectionHeight*2 && scrollTop < sectionHeight*3){
 		// title3.classList.add('title-anim2');
 		// content3.classList.add('content-anim');
+		$(".avatar").slideDown(5000);
+		// alert("3");
 	}
 }
